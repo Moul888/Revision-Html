@@ -31,8 +31,17 @@
       <form action="contact.html">
         <div>
           <label for="email">Votre email</label>
-          <input type="email" required id="email" name="email">
+          <input type="email" required id="email" name="email" placeholder="votre@email.fr">
         </div>
+        <div>
+          <label for="firstname">Votre prénom</label>
+          <input type="text" required id="firstname" name="firstname">
+        </div>
+        <div>
+          <label for="message">Votre message</label>
+          <textarea required name="message" id="message" placeholder="Ecrivez ici..."></textarea>
+        </div>
+        <button type="submit">Envoyer votre email</button>
       </form>
     </section>
     <footer>
