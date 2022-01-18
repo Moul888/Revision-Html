@@ -1,3 +1,35 @@
-h2 {
-  color: red;
+.header {
+  background: grey;
+  padding: 20px;
+  height: auto;
 }
+
+.header img {
+  width: 100%;
+  height: auto;
+}
+
+.header-title {
+  margin-top: 0px;
+}
+
+ .header-nav{
+   margin: 20px 0;
+ }
+
+ .header-nav a {
+   margin:0 10px;
+  }
+
+.main {
+  background: lightgray;
+  padding: 20px;
+}
+
+.footer {
+  background: gray;
+  padding:20px
+}
+ body {
+   margin:0;
+ }
